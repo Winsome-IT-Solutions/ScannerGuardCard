@@ -1,0 +1,340 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.scanner-guard a {
+  color: #00995d;
+  font-size: smaller;
+  font-weight: 550;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+}
+.nav-link {
+  border-right: 1px solid rgb(119, 118, 118);
+  margin-bottom: 15px;
+}
+.nav-link:hover {
+  background-color: #00995d;
+  color: white;
+  padding-bottom: 35px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+.scanner-guard hr {
+  border-top: 1.4px solid #00995d;
+  margin-top: -36px;
+}
+.header-2 {
+  text-align-last: center;
+}
+.header-2 img {
+  padding: 10px;
+}
+.banner-left {
+  background: #333;
+  text-align-last: center;
+  padding: 15px;
+}
+
+.left-paragraph1 {
+  padding-top: 10px;
+  color: white;
+  margin-top: 5%;
+  font-size: 2.2rem;
+}
+.left-paragraph2 {
+  color: white;
+  font-size: 1.2rem;
+}
+.banner-left-container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  text-align-last: left;
+}
+.banner-right {
+  text-align-last: left;
+  padding: 15px;
+}
+hr.style13 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+.paragraph1 {
+  font-weight: bolder;
+  font-size: medium;
+  padding: 5px;
+  margin-left: 5%;
+}
+.paragraph2 {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #fa0000;
+  letter-spacing: 0.2px;
+  padding: 5px;
+  margin-left: 5%;
+}
+.span1 {
+  font-size: 2.8rem;
+}
+.paragraph3 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: rgba(128, 128, 128, 0.432);
+  padding: 5px;
+  margin-left: 5%;
+}
+.paragraph4 {
+  float: left;
+  color: #00995d;
+  margin-top: -4%;
+  margin-left: 8%;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.paragraph4 sub {
+  font-size: 2rem;
+}
+.paragraph4 sup {
+  margin-left: -1%;
+}
+.order-now {
+  float: left;
+  padding: 5px;
+  padding-left: 28px;
+  background: radial-gradient(#a30202, #fa0000);
+  color: white;
+  border-radius: 35px;
+  border: #fa0000;
+  width: 150px;
+  font-size: large;
+  margin-top: -2%;
+  margin-left: 5%;
+}
+.section2 {
+  background: rgba(0, 0, 0, 0.986);
+  position: relative;
+}
+.section-2-lock {
+  position: absolute;
+  top: 22%;
+  right: 15%;
+}
+
+.section-2-paragraph1 {
+  position: absolute;
+  color: rgb(255, 254, 251);
+  font-size: 2.5rem;
+  bottom: 30%;
+  left: 15%;
+}
+.section-2-paragraph2 {
+  position: absolute;
+  color: rgb(255, 254, 251);
+  font-size: 3.8rem;
+  bottom: 18%;
+  left: 15%;
+}
+.section-2-paragraph3 {
+  position: absolute;
+  color: rgb(255, 254, 251);
+  font-size: 1.7rem;
+  top: 20%;
+  right: 27%;
+  left: 55%;
+  text-align: justify;
+}
+.get-more-info {
+  background: #00995d;
+  border: #00995d;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  border-radius: 30px;
+  width: 260px;
+  position: absolute;
+  bottom: 30%;
+  right: 27%;
+  padding: 10px;
+  text-align: center;
+}
+.banner2-left {
+  background: #00995d;
+  color: white;
+}
+.banner2-left-container {
+  padding: 10%;
+  padding-left: 25%;
+}
+.section-3-paragraph1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.section-3-paragraph2 {
+  color: rgb(39, 39, 39);
+  font-size: 1.7rem;
+  font-weight: 550;
+  text-align: justify;
+}
+.section-3-paragraph3 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: justify;
+}
+.read-more1 {
+  margin-top: 7%;
+  background: #00995d;
+  border: 1px solid white;
+  color: white;
+  width: 160px;
+  border-radius: 30px;
+  padding: 12px;
+  text-align: center;
+  font-size: large;
+}
+
+.banner2-right-container {
+  padding: 10%;
+  padding-right: 30%;
+}
+.section-3-paragraph4 {
+  color: #00995d;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.span2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.section-3-paragraph5 {
+  color: #00995d;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: justify;
+}
+.section-3-paragraph6 {
+  padding-top: 7%;
+  color: rgb(15, 15, 15);
+  font-size: 3rem;
+  font-weight: 500;
+}
+.span3 {
+  color: #00995d;
+}
+.read-more2 {
+  margin-top: 7%;
+  background: white;
+  border: 1px solid #00995d;
+  color: #00995d;
+  width: 160px;
+  border-radius: 30px;
+  padding: 12px;
+  text-align: center;
+  font-size: large;
+}
+.section-4 {
+  padding: 4%;
+  background: #333;
+}
+.section-4-paragraph1 {
+  color: #00995d;
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.section-4-paragraph2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: -2%;
+}
+.sec-4-accordion ul {
+  list-style-type: none;
+}
+.accordion {
+  width: 70%;
+  margin: 30px auto 20px;
+  background: #333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 42px;
+  color: #00995d;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #00995d;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.accordion li.open .link {
+  color: #00995d;
+  font-size: 25px;
+  border-bottom: 0;
+  padding: 5px;
+  margin-top: 2%;
+}
+
+.accordion li.open i {
+  color: #00995d;
+  font-size: 30px;
+  margin-left: -6%;
+  margin-top: -1%;
+}
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+   * Submenu
+   -----------------------------*/
+
+.submenu {
+  display: none;
+  background: #333;
+  font-size: 14px;
+  color: #fff;
+}
+
+.submenu p {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  padding: 5px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
