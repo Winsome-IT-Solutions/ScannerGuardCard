@@ -1,37 +1,57 @@
 body {
   font-family: "Poppins", sans-serif !important;
 }
-
-.scanner-guard a {
-  color: #00995d;
-  font-size: smaller;
-  font-weight: 550;
-  padding: 20px;
-  display: inline-block;
+.custom-nav-1 {
   text-align: center;
 }
-.nav-link {
-  border-right: 1px solid rgb(119, 118, 118);
-  margin-bottom: 15px;
+
+nav {
+  background: none !important;
+  border: none !important;
+  display: inline-block !important;
+  text-align: center !important;
 }
+.navbar {
+  display: inline-block !important;
+  text-align: right !important;
+}
+.nav-link {
+  border-right: 1px solid rgb(119, 118, 118) !important;
+  margin-bottom: 8px !important;
+  background: none !important;
+  color: #00995d !important;
+  font-size: smaller !important;
+  font-weight: 550 !important;
+  padding: 20px !important;
+  display: inline-block !important;
+  text-align: center !important;
+}
+
 .nav-link:hover {
-  background-color: #00995d;
-  color: white;
-  padding-bottom: 35px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  text-decoration: none;
-  margin-bottom: 0px;
+  background-color: #00995d !important;
+  color: white !important;
+  padding-bottom: 28px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  text-decoration: none !important;
+  margin-bottom: 0px !important;
 }
 .scanner-guard hr {
   border-top: 1.4px solid #00995d;
-  margin-top: -36px;
+  margin-top: -33px;
 }
 .header-2 {
   text-align-last: center;
 }
+.header-2-paragraph1 {
+  float: left;
+  margin-top: 3%;
+}
 .header-2 img {
   padding: 10px;
+}
+.right-img {
+  float: right;
 }
 .banner-left {
   background: #333;
@@ -122,12 +142,14 @@ hr.style13 {
   position: relative;
 }
 .section-2-lock {
+  visibility: visible;
   position: absolute;
   top: 22%;
   right: 15%;
 }
 
 .section-2-paragraph1 {
+  visibility: visible;
   position: absolute;
   color: rgb(255, 254, 251);
   font-size: 2.5rem;
@@ -135,6 +157,7 @@ hr.style13 {
   left: 15%;
 }
 .section-2-paragraph2 {
+  visibility: visible;
   position: absolute;
   color: rgb(255, 254, 251);
   font-size: 3.8rem;
@@ -142,6 +165,7 @@ hr.style13 {
   left: 15%;
 }
 .section-2-paragraph3 {
+  visibility: visible;
   position: absolute;
   color: rgb(255, 254, 251);
   font-size: 1.7rem;
@@ -151,6 +175,7 @@ hr.style13 {
   text-align: justify;
 }
 .get-more-info {
+  visibility: visible;
   background: #00995d;
   border: #00995d;
   color: white;
@@ -387,24 +412,29 @@ hr.style13 {
   color: red;
 }
 .sec-5-right1 {
+  visibility: visible;
   background: #333333;
   max-height: 230px;
 }
 .sec-5-right2 {
+  visibility: visible;
   background: #666666;
   text-align: center;
   max-height: 230px;
 }
 .sec-5-right3 {
+  visibility: visible;
   background: #cccccc;
   padding-top: 230px;
 }
 .fa-chevron-left {
+  visibility: visible;
   padding: 60%;
   padding-left: 30%;
   color: red;
 }
 .fa-chevron-right {
+  visibility: visible;
   padding: 60%;
   padding-left: 30%;
   color: red;
@@ -481,6 +511,7 @@ hr.style13 {
   padding: 4%;
 }
 .footer-1 {
+  color: white !important;
   background: #00995d;
   padding: 6%;
   padding-bottom: 3%;
@@ -503,7 +534,7 @@ hr.style13 {
 .footer-1-list {
   color: white !important;
   font-size: 1.6rem;
-  padding: 10px !important;
+  padding: 20px !important;
   margin-left: 15%;
 }
 .footer-2 {
