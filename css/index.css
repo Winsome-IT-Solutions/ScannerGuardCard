@@ -704,3 +704,37 @@ ul.breadcrumb li a:hover {
 .contact-section-form-policies {
   margin-bottom: 8%;
 }
+
+/* FAQ Section */
+.faq-paragraph1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 5%;
+}
+.faq-accordion {
+  list-style-type: none;
+}
+.faq-accordion {
+  padding: 20px;
+  width: 100%;
+  margin: 30px auto 20px;
+  background: #333;
+  margin-bottom: 7%;
+}
+
+.faq-accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 25px 25px 50px 30px;
+  color: #fcfdfd;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-left: 30px;
+}
