@@ -830,3 +830,35 @@ ul.breadcrumb li a:hover {
   width: 40%;
   padding: 2%;
 }
+
+/* Testimonials */
+.sg-testimonials {
+  padding: 7%;
+}
+.testi-container {
+  margin-top: 7%;
+}
+.testi-p1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.testi-p2 {
+  font-size: 1.8rem;
+}
+.testi-cards {
+  background: rgba(221, 219, 219, 0.836);
+  padding: 8%;
+  border-radius: 20px;
+  margin-bottom: 7%;
+}
+.testi-container .checked {
+  color: rgb(255, 204, 36);
+}
+.testi-p2 {
+  font-size: 1.4rem;
+  text-align: justify;
+  margin-top: 3%;
+}
+.testi-p2 span {
+  color: #00995d;
+}
