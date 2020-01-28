@@ -50,11 +50,11 @@
   }
   .header-2-paragraph1 {
     float: left;
-    margin-left: 25%;
+    margin-left: 20%;
   }
   .right-img {
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 12%;
     float: left !important;
   }
   .section-4-paragraph1 {
@@ -82,6 +82,28 @@
     right: 1%;
     padding: 2px;
     text-align: center;
+  }
+  .inthenews-cards-1 {
+    border: 1px #00995d solid;
+    width: 100%;
+    padding: 3%;
+    float: none;
+  }
+  .inthenews-cards {
+    border: 1px #00995d solid;
+    width: 100%;
+    padding: 3%;
+    float: none;
+  }
+  .inthenews-readmore {
+    background: #00995d;
+    border: #00995d;
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 30px;
+    width: 75%;
+    padding: 2%;
   }
 }
 @media only screen and (max-width: 992px) {
