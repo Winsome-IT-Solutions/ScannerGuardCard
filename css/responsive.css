@@ -32,6 +32,31 @@
     text-decoration: none !important;
     margin-bottom: 0px !important;
   }
+
+  .footer-1 ul {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-1-list {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .footer-1 li {
+    display: inline-block;
+    padding: 4px 13px;
+    text-align: left;
+    width: 49%;
+  }
+  .boredr_bottom {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  .footer-1 {
+    color: white !important;
+    background: #00995d;
+    padding: 0;
+    padding-bottom: 3%;
+  }
 }
 @media only screen and (max-width: 648px) {
   .header-2 {
@@ -270,6 +295,10 @@
     font-size: 30px;
     margin-left: -24%;
     margin-top: -4%;
+  }
+  .footer-1-list {
+    font-size: 12px;
+    font-weight: 400;
   }
 }
 @media only screen and (max-width: 1524px) and (min-width: 992px) {
