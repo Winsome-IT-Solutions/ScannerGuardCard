@@ -21,7 +21,7 @@
     padding: 5px !important;
   }
   .navbar {
-    margin-right: 1%;
+    margin-right: 3%;
   }
   .nav-link:hover {
     background-color: #00995d !important;
@@ -253,6 +253,11 @@
     right: 50%;
     padding: 2px;
     text-align: center;
+  }
+  .right-img {
+    margin-top: 10%;
+    margin-left: 6%;
+    float: left !important;
   }
 }
 @media only screen and (max-width: 1524px) and (min-width: 992px) {
