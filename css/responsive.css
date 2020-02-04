@@ -308,6 +308,14 @@
     padding-bottom: 5%;
     border-bottom: 1px solid white;
   }
+  .contact-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .sg-contact-section {
+    margin-bottom: 5%;
+    padding-left: 0px;
+  }
 }
 @media only screen and (max-width: 1524px) and (min-width: 992px) {
   .section-2-lock {

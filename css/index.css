@@ -632,6 +632,10 @@ ul.breadcrumb li a:hover {
 }
 
 /* Contact Us */
+.contact-header {
+  padding-left: 40px;
+  padding-right: 15px;
+}
 .contact_box {
   position: relative;
   padding-left: 80px;
@@ -656,9 +660,11 @@ ul.breadcrumb li a:hover {
   font-size: 1.2em;
   font-weight: 500;
   margin-bottom: 7%;
+  text-align: justify;
 }
 .sg-contact-section {
   margin-bottom: 5%;
+  padding-left: 40px;
 }
 .sg-contact-form input {
   width: 45%;
@@ -838,21 +844,39 @@ ul.breadcrumb li a:hover {
 
 /* Testimonials */
 .sg-testimonials {
-  padding: 7%;
+  padding: 5%;
 }
 .testi-container {
-  margin-top: 7%;
+  margin-top: 5%;
+}
+.testi-header {
+  margin-bottom: 20%;
 }
 .testi-p1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 .testi-p2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: justify;
+}
+.testi-p3 {
+  font-size: 4rem;
+  color: white;
+}
+.testi-p4 {
+  font-size: 3rem;
+  color: black;
+}
+.testi-p5 {
+  font-size: 1.6rem;
+  color: black;
 }
 .testi-cards {
   background: rgba(221, 219, 219, 0.836);
-  padding: 8%;
+  padding: 5%;
+  padding-bottom: 80px;
   border-radius: 20px;
   margin-bottom: 7%;
 }
@@ -862,7 +886,6 @@ ul.breadcrumb li a:hover {
 .testi-p2 {
   font-size: 1.4rem;
   text-align: justify;
-  margin-top: 3%;
 }
 .testi-p2 span {
   color: #00995d;
