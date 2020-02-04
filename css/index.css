@@ -543,7 +543,8 @@ hr.style13 {
 }
 .footer-2 {
   background: #333;
-  padding-top: 1%;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 .footer-2-paragraph {
   font-size: 1.6rem;
