@@ -261,12 +261,12 @@
 @media only screen and (max-width: 424px) {
   .section-4-paragraph1 {
     color: #00995d;
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
     font-weight: 500;
     letter-spacing: 0.3px;
   }
   .section-3-paragraph1 {
-    font-size: 1rem !important;
+    font-size: 2rem !important;
     font-weight: 500;
     letter-spacing: 0.2px !important;
   }
@@ -299,6 +299,14 @@
   .footer-1-list {
     font-size: 12px;
     font-weight: 400;
+  }
+  .footer-1-left {
+    padding-bottom: 5%;
+    border-bottom: 1px solid white;
+  }
+  .footer-1-center {
+    padding-bottom: 5%;
+    border-bottom: 1px solid white;
   }
 }
 @media only screen and (max-width: 1524px) and (min-width: 992px) {

@@ -405,9 +405,8 @@ hr.style13 {
   font-size: medium;
 }
 .section-5-paragraph3 {
-  margin: 20%;
-  margin-left: 5%;
-  margin-right: 10%;
+  margin: 10%;
+  text-align: center;
   font-size: 4rem;
   color: black;
 }
@@ -444,6 +443,7 @@ hr.style13 {
 }
 .sec-5-right-bottom {
   margin-top: 5%;
+  margin-left: 5%;
 }
 .sec-5-video {
   font-size: 2rem;
@@ -473,9 +473,6 @@ hr.style13 {
   padding: 2%;
   padding-left: 4%;
   float: right;
-}
-.sec-6-container {
-  margin-bottom: 5%;
 }
 .sec-7-paragraph1 {
   font-size: 4.5rem;
@@ -730,7 +727,9 @@ ul.breadcrumb li a:hover {
   background: #333;
   margin-bottom: 7%;
 }
-
+.sg-faq p {
+  text-align: justify;
+}
 .faq-accordion .link {
   cursor: pointer;
   display: block;
@@ -948,4 +947,16 @@ ul.breadcrumb li a:hover {
   width: fit-content;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.recent_news_sec {
+  padding: 50px 0;
+}
+.footer-img-logo {
+  margin-bottom: 12%;
+  border-radius: 20px;
+  margin-top: 10%;
+  padding: 6%;
+  padding-top: 5%;
+  background-color: white;
 }
