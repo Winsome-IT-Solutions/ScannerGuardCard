@@ -257,6 +257,17 @@
   .sec-5-right-bottom {
     text-align: center;
   }
+  .howitworks-mid-body {
+    background-image: none !important ;
+    background-color: #eee;
+  }
+  .howitworks-para-3 {
+    font-size: 2.2em;
+    color: #333;
+  }
+  .howitworks-mid-para {
+    text-align: center !important;
+  }
 }
 @media only screen and (max-width: 424px) {
   .section-4-paragraph1 {
