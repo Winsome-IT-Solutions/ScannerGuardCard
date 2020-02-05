@@ -842,6 +842,72 @@ ul.breadcrumb li a:hover {
   padding: 2%;
 }
 
+/* Proven To Work */
+.proventowork-p1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.proventowork-p2 {
+  font-size: 1.4em;
+  text-align: justify;
+}
+.proventowork-p3 {
+  color: #00995d;
+  font-size: 1.2em;
+}
+.proventowork-p4 {
+  font-size: 2.5em;
+}
+
+/* Order Now */
+.ordernow-p1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #00995d;
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
+.ordernow-p2 {
+  font-size: 1.1em;
+}
+.ordernow-p3 {
+  font-size: 6em;
+  color: #00995d;
+  padding: 15%;
+}
+.ordernow-p4 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.order-now-quantity label {
+  color: #00995d;
+  font-size: large;
+  padding: 7px;
+}
+.order-now-quantity input {
+  width: 30;
+  color: #666666;
+  border: none;
+  background: rgb(192, 191, 191);
+  padding: 3px;
+  padding-left: 10px;
+}
+.order-now-quantity i {
+  color: #333;
+  background: #d8d6d6;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 20px;
+}
+.order-now-quantity span {
+  padding-left: 10px;
+}
+.ordernow-p6 {
+  font-size: 1.8em;
+  margin-top: 30px;
+}
 /* Testimonials */
 .sg-testimonials {
   padding: 5%;
