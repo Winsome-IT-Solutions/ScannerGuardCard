@@ -298,7 +298,7 @@
                   </div>
                   <div class="row sec-5-right-bottom">
                     <div class="col-lg-11 col-md-11">
-                      <div class="col-lg-4 col-md-4 col-sm-12 col-sx-12">
+                      <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-sx-12">
                           <p class="sec-5-video">Video #1</p>
                           <img src="img/Video-2.png" width="250" />
                       </div>
@@ -309,7 +309,33 @@
                       <div class="col-lg-4 col-md-4 col-sm-12 col-sx-12">
                         <p class="sec-5-video">Video #3</p>
                         <img src="img/Video-4.png" width="250" />
-                      </div>
+                      </div> -->
+                      <section id="owl-2">
+                        <div class="owl-carousel owl-theme">
+                          <div>
+                            <img src="img/Video-4.png" width="250" />
+                          </div>
+                          <div>
+                            <img src="img/Video-2.png" width="250" />
+                          </div>
+                          <div>
+                            <img src="img/Video-3.png" width="250" />
+                          </div>
+                          <div>
+                            <img src="img/Video-4.png" width="250" />
+                          </div>
+                          <div>
+                            <img src="img/Video-2.png" width="250" />
+                          </div>
+                          <div>
+                            <img src="img/Video-3.png" width="250" />
+                          </div>
+                          <div>
+                            <img src="img/Video-4.png" width="250" />
+                          </div>
+                        </div>
+                      </section>
+                      
                       </div>
                       <div class="col-lg-1 col-md-1"></div>
                   </div>
@@ -470,6 +496,35 @@
 
     </div>
   </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+<script>
+$(document).ready(function(){
+  
+  $('#owl-2 .owl-carousel').owlCarousel(
+    {
+      items: 3,
+      margin: 16,
+      stagePadding: 32,
+      loop: true,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      navSpeed: 500,
+      dots: false,
+      dotsEach: true,
+      nav: true,
+      // navText: ['Back','Next'],
+      navText: ['',''],
+      autoplayTimeout: 2000,
+      autoplayHoverPause: false,
+      animateOut: 'slideOutDown',
+      animateIn: 'flipInX',
+    }
+  );
+
+});
+</script>
   <script>
   $(function() {
     var Accordion = function(el, multiple) {
